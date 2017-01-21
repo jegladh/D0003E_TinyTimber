@@ -1,7 +1,7 @@
 /*
- * write_Application.c
+ * writeApplication.c
  *
- * Created: 2017-01-18 14:56:55
+ * Created: 2017-01-18
  * Author : Erik Karlsson
  */
 
@@ -48,7 +48,7 @@ int main(void){
 LCD_Init();
 
 // Lab1 part1
-writeChar(5,2);
+//writeChar(5,2);
 
 //Just a print test
 LCDDR0 = 0x0;
@@ -57,6 +57,7 @@ LCDDR10 = 0x4;
 LCDDR15 = 0x0;
 }
 
+/*
 public static writeChar(char ch, int pos){
 	if (pos <= 6){
 
@@ -71,3 +72,4 @@ public static writeChar(char ch, int pos){
 
 	}
 }
+*/
